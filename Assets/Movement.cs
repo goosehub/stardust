@@ -18,11 +18,21 @@ public class Movement : MonoBehaviour
         Rotation();
         Friction();
         Gravity();
+        PlanetRotate();
+    }
+
+    void PlanetRotate()
+    {
+        planet.transform.Rotate(0, 1 * Time.deltaTime, 0);
     }
 
     void Thrust()
     {
         if (Input.GetKey("space"))
+        {
+            player.AddForce(player.transform.forward * 10000 * Time.deltaTime);
+        }
+        if (Input.GetKey("v"))
         {
             player.AddForce(player.transform.forward * 1000 * Time.deltaTime);
         }

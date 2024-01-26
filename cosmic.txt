@@ -1,0 +1,58 @@
+==========================================================================================
+	Cosmic Nomads
+==========================================================================================
+
+
+
+==========================================================================================
+    Todo
+==========================================================================================
+
+	High Priority
+Movement
+Collision
+Physics
+Abstraction
+Controller Support
+On Rails Orbiting
+Graphics
+Scene Transitions
+
+	Medium Priority
+Conversation
+Bartering
+Ships
+Ship Fuel
+Ship Damage
+
+	Low Priority
+Title Screen
+Saves
+Settings
+Journal
+Quests
+Cutscenes
+
+	No Priority
+Trailer
+Achievements
+Console
+Logo
+Accessibility
+Internationalization
+Credits
+
+	Assets
+World Art
+Character Art
+Backdrop Art
+Music
+Audio
+Voice Acting
+Dialogue
+Item Data
+
+==========================================================================================
+    Notes
+==========================================================================================
+
