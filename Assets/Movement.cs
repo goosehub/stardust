@@ -4,6 +4,7 @@ public class Movement : MonoBehaviour
 {
     public Rigidbody Player;
     float RotationSpeed = 100;
+    float RollSpeed = 50;
     float ThrustSpeed = 40000;
 
     void Start()
@@ -60,13 +61,13 @@ public class Movement : MonoBehaviour
         }
         if (Input.GetKey("q"))
         {
-            Vector3 angle = new Vector3(0, 0, RotationSpeed);
+            Vector3 angle = new Vector3(0, 0, RollSpeed);
             Quaternion deltaRotation = Quaternion.Euler(angle * Time.fixedDeltaTime);
             Player.MoveRotation(Player.rotation * deltaRotation);
         }
         if (Input.GetKey("e"))
         {
-            Vector3 angle = new Vector3(0, 0, -RotationSpeed);
+            Vector3 angle = new Vector3(0, 0, -RollSpeed);
             Quaternion deltaRotation = Quaternion.Euler(angle * Time.fixedDeltaTime);
             Player.MoveRotation(Player.rotation * deltaRotation);
         }
