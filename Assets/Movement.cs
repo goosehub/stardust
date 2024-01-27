@@ -4,7 +4,7 @@ public class Movement : MonoBehaviour
 {
     public Rigidbody Player;
     float RotationSpeed = 100;
-    float ThrustSpeed = 20000;
+    float ThrustSpeed = 40000;
 
     void Start()
     {
@@ -24,7 +24,7 @@ public class Movement : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.LeftControl))
         {
-            Player.AddForce(Player.transform.forward * ThrustSpeed * 5 * Time.deltaTime);
+            Player.AddForce(Player.transform.forward * ThrustSpeed * 3 * Time.deltaTime);
         }
         if (Input.GetKey(KeyCode.LeftShift))
         {
