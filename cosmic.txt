@@ -8,13 +8,15 @@
     Todo
 ==========================================================================================
 
-	High Priority
+	Immediate Priority
 Movement
 Collision
 Physics
+On Rails Orbiting
+
+	High Priority
 Abstraction
 Controller Support
-On Rails Orbiting
 Graphics
 Scene Transitions
 
@@ -34,13 +36,16 @@ Quests
 Cutscenes
 
 	No Priority
-Trailer
-Achievements
-Console
-Logo
 Accessibility
 Internationalization
 Credits
+
+	Marketing
+Console
+Trailer
+Press Kit
+Achievements
+Logo
 
 	Assets
 World Art
