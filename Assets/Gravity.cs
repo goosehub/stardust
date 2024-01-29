@@ -25,7 +25,6 @@ public class Gravity : MonoBehaviour
         // GravityDistance is a point between surface and center of planet
         float GravityDistance = Distance - (Body.transform.localScale.y / DistanceDivider);
         float GravityForce = (PullForce * BodyMass) / (GravityDistance);
-        Debug.Log(GravityForce);
         Player.AddForce(ForceDirection.normalized * GravityForce * Time.fixedDeltaTime);
     }
 }

@@ -25,7 +25,7 @@ public class Movement : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.LeftControl))
         {
-            Player.AddForce(Player.transform.forward * ThrustSpeed * 3 * Time.deltaTime);
+            Player.AddForce(Player.transform.forward * ThrustSpeed * 10 * Time.deltaTime);
         }
         if (Input.GetKey(KeyCode.LeftShift))
         {
